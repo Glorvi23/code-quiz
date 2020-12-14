@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Code Quiz</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a style="color: purple;" href="#viewHighScore">View Highscores</a>
 
-        
-        <script src="./script"></script>
-    </body>
+              <h6 style="align-text-center;">Timer</h6>
+    
+      
+      </div>
+    </nav>
+    <button type="button">Start</button
+    ><!-- container in center of page to hold the questions
+        Start button
+        top right hold time
+        top left Leaderboard score -->
+
+    <script src="./script"></script>
+    <!-- Once start is pressed, a question appears
+        Timer starts (timer function)
+        Questions (DOM Manipulation, same function?? How to replace the questions??)
+        When you get one wrong, subtract time by 10 seconds (does not got to next question)
+        When I get one correct, I get a score (proceeds to next question)
+        When timer hits 0, the game ends
+        Then have a form to put in my initials which will be stored with my score
+        Options to clear results or go back to start-->
+  </body>
 </html>
