@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Code Quiz</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a style="color: purple;" href="#viewHighScore">View Highscores</a>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
 
-              <h6 style="align-text-center;">Timer</h6>
-    
-      
-      </div>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a style="color: purple;" href="#viewHighScore">View Highscores</a>
+            <h6 value=0>Timer:</h6>
+        </div>
     </nav>
-    <button type="button">Start</button
-    ><!-- container in center of page to hold the questions
+    <div class="container">
+        <!-- <div style="text-align:center; transform: translate(-50%, 50%); top: 50%; bottom: 50%; position: absolute"> -->
+        <div class="row">
+            <div class="col" style="text-align: center; padding: 0% 27.8% 0% 27.8%;">
+                <h1>Coding Quiz Challenge</h1>
+                <p>
+                    Try to answer the following code-related questions within the time limit. 
+                    Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+                </p>
+                <button class="btn btn-default" style="color: white; background-color: purple;">Start Quiz</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <h1>Centering Example</h1>
+    <div class="centered">
+        <button>This button is centered</button>
+    </div> -->
+
+
+
+    <!-- container in center of page to hold the questions
         Start button
         top right hold time
         top left Leaderboard score -->
 
-    <script src="./script"></script>
-    <!-- Once start is pressed, a question appears
-        Timer starts (timer function)
-        Questions (DOM Manipulation, same function?? How to replace the questions??)
-        When you get one wrong, subtract time by 10 seconds (does not got to next question)
-        When I get one correct, I get a score (proceeds to next question)
-        When timer hits 0, the game ends
-        Then have a form to put in my initials which will be stored with my score
-        Options to clear results or go back to start-->
-  </body>
+    <script src="./script">
+    //     Once start is pressed, a question appears
+    //     Timer starts (timer function)
+    //     Questions (DOM Manipulation, same function?? How to replace the questions??)
+    //     When you get one wrong, subtract time by 10 seconds (does not got to next question)
+    //     When I get one correct, I get a score (proceeds to next question)
+    //     When timer hits 0, the game ends
+    //     Then have a form to put in my initials which will be stored with my score
+    //     Options to clear results or go back to start
+    </script>
+
+</body>
+
 </html>
