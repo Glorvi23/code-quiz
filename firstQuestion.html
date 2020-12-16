@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Code Quiz</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a style="color: purple;" href="./viewHighScore.html">View Highscores</a>
+            <h6 value=0>Timer:</h6>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- <div style="text-align:center; transform: translate(-50%, 50%); top: 50%; bottom: 50%; position: absolute"> -->
+        <div class="row">
+            <div class="col" style="text-align: left; padding: 0% 27.8% 0% 27.8%;">
+                <h3 id="firstCodingTitle"></h3>
+                <div class="row">
+                    <div class="col">
+                        <button id="start" class="btn btn-default" style="color: white; background-color: purple;">
+                            <a style="color: white;" href="./secondQuestion.html">
+                                1. strings
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col pt-1">
+                        <button id="start" class="btn btn-default" style="color: white; background-color: purple;">
+                            <a style="color: white;" href="./secondQuestion.html">
+                                2. booleans
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col pt-1">
+                        <button id="start" class="btn btn-default" style="color: white; background-color: purple;">
+                            <a style="color: white;" href="./secondQuestion.html">
+                                3. alerts
+                            </a>
+                        </button>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col pt-1">
+                        <button id="start" class="btn btn-default" style="color: white; background-color: purple;">
+                            <a style="color: white;" href="./secondQuestion.html">
+                                4. numbers
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./firstScript.js">
+        //     Once start is pressed, a question appears
+        //     Timer starts (timer function)
+        //     Questions (DOM Manipulation, same function?? How to replace the questions??)
+        //     When you get one wrong, subtract time by 10 seconds (does not got to next question)
+        //     When I get one correct, I get a score (proceeds to next question)
+        //     When timer hits 0, the game ends
+        //     Then have a form to put in my initials which will be stored with my score
+        //     Options to clear results or go back to start
+    </script>
+
+</body>
+
+</html>

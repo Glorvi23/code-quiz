@@ -14,20 +14,24 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a style="color: purple;" href="#viewHighScore">View Highscores</a>
+            <a style="color: purple;" href="./viewHighScore.html">View Highscores</a>
             <h6 value=0>Timer:</h6>
         </div>
     </nav>
     <div class="container">
         <!-- <div style="text-align:center; transform: translate(-50%, 50%); top: 50%; bottom: 50%; position: absolute"> -->
         <div class="row">
-            <div class="col" style="text-align: center; padding: 0% 27.8% 0% 27.8%;">
-                <h1>Coding Quiz Challenge</h1>
-                <p>
-                    Try to answer the following code-related questions within the time limit. 
-                    Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+            <div  class="col" style="text-align: center; padding: 0% 27.8% 0% 27.8%;">
+                <h1 id="codingTitle"></h1>
+                <p id="codingPara">
+                    <!-- Try to answer the following code-related questions within the time limit. 
+                    Keep in mind that incorrect answers will penalize your score/time by ten seconds! -->
                 </p>
-                <button class="btn btn-default" style="color: white; background-color: purple;">Start Quiz</button>
+                <button  id="start" class="btn btn-default" style="color: white; background-color: purple;">
+                    <a style="color: white;" href="./firstQuestion.html">
+                        Start Quiz
+                    </a>
+                </button>
             </div>
         </div>
     </div>
@@ -45,7 +49,9 @@
         top right hold time
         top left Leaderboard score -->
 
-    <script src="./script">
+    <script src="./script.js">
+       
+
     //     Once start is pressed, a question appears
     //     Timer starts (timer function)
     //     Questions (DOM Manipulation, same function?? How to replace the questions??)
